@@ -1,0 +1,15 @@
+{
+  "name": "addon",
+  "version": "0.0.0",
+  "description": "Node.js Addons",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "*",
+    "node-addon-api": "*"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "gypfile": true
+}
